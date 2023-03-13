@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form page</title>
+		<style>
+		.form_center{
+			display: flex;
+			justify-content: center;
+
+		}
+			
+		</style>
+	</head>
+	<body>
+		<div class="form_center"> 
+		<form onsubmit="myfunction()">
+			<label for="name"></label>
+		<br>
+
+			<input type="text" name="name" id="name" required placeholder="Name">
+		<br>
+
+			<label for="email"></label>
+		<br>
+
+			<input type="email" name="email" id="'email" required placeholder="Email Address"> 
+		<br>
+
+			<label for="phone"></label>
+		<br>
+
+			<input type="tel" name="phone" id="phone" required placeholder="Phone">
+	
+			<br>
+
+			<label for="male">Male</label>
+			
+			<input type="radio" name="sex" value="male" id="male" required>
+		<br>
+
+			<label for="female">Female</label>
+			<input type="radio" name="sex" id="female" value="female" required>
+		<br>
+
+			
+			<label for="password"></label>
+		<br>
+
+			<input type="password" name="password" id="password" required placeholder="Password">
+		<br>
+		<br>
+
+
+			<input type="submit">
+
+			
+		</form>
+		</div>
+		<script>
+			function myfunction(){
+				alert("Successfull")
+			}
+		</script>
+	</body>
+</html>
